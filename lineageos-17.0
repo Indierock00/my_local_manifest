@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Device Sources -->
+    <project name="Indierock00/android_device_xiaomi_raphael" path="device/xiaomi/raphael" remote="github" revision="lineage-17.0" />
+    <project name="UtsavisGreat/kernel_xiaomi_raphael" path="kernel/xiaomi/raphael" remote="github" revision="q-fod" />
+    <project name="raphael-development/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="lineage-17.0" />
+  
+  <!-- Packages -->
+    <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="lineage" />
+
+  <!-- Remotes -->
+    <remote  name="lineage" fetch="https://github.com/LineageOS" revision="lineage-17.0" /
+   
+   
+</manifest>
