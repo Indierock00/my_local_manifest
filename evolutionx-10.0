@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Device Sources -->
+    <project 
+		  name="Indierock00/android_device_xiaomi_markw-ten" 
+		  path="device/xiaomi/markw" 
+		  remote="github" 
+		  revision="evo-x_10.0" />
+    <project 
+		  name="ShihabZzz/perf_markw" 
+	  	path="kernel/xiaomi/markw" 
+	  	remote="github" 
+	  	revision="ten" />
+    <project 
+	  	name="ShihabZzz/proprietary_vendor_xiaomi_markw" 
+  		path="vendor/xiaomi" 
+	  	remote="github" 
+	  	revision="ten" />
+
+</manifest>
